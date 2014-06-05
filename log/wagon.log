@@ -727,3 +727,19 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 10.4ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-06-04 22:25:35 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 22:25:36 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 22:27:42 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 22:27:44 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.1ms
+
+[0m
