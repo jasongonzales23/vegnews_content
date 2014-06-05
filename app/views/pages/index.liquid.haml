@@ -1,0 +1,140 @@
+---
+title: Home page
+published: true
+---
+!!!
+%html{lang: "en"}
+  %head
+    %title VegNews
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "content-type"}/
+    %meta{charset: "utf-8"}/
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+    {{ 'bootstrap.css' | stylesheet_tag }}
+    {{ 'theme.css' | stylesheet_tag }}
+  %body
+    #header.container
+      .row
+        .banner-img
+          {{ 'lib_veg.jpg' | theme_image_tag }}
+    #main-content.container
+      .row
+        .col-md-8
+          %h1 A Message from VegNews Founder and Publisher Joseph Connelly
+          {% editable_text, "Main Content", rows:'40'%}
+          %p.joe
+            {{ 'joe.jpg' | theme_image_tag }}
+          %p After publishing the November+December 2013 issue of VegNews, I made the very difficult decision to suspend publication of the magazine temporarily while dealing with some personal and professional issues, including the failing health of my longtime office assistant Frances (Frankie) McGee, who succumbed to cancer on February 19.
+          %p After regrouping, which included assembling an almost entirely new staff, I announced that VegNews would resume publication with a Summer Spectacular issue on June 2. Against all odds, we met our deadline and the issue is now printed and ready to be sent to you, our valued subscribers. The issue is fantastic, one of the best I have ever published, and I’d love for you to read it.
+          %p Regrettably, former VegNews advertising director Colleen Holland is blocking my ability to mail the issue to you via a dubious legal and administrative attack.
+          %p While I am working with my attorneys and the courts to get this matter resolved—and rest assured I will—it will take time and could <b>cost tens of thousands of dollars in legal fees</b>, money that would be better spent on spreading the vegan message and saving animal lives. So today, I am turning to you to ask for help.
+          %p In the sidebar to the right are the names, phone and fax numbers, and snail and email addresses of those working with Ms. Holland to prevent you from getting YOUR magazine. You have patiently waited six months between issues and should not have to wait another day to get your VegNews. Please contact these people and politely ask them to allow the issue to be mailed immediately.
+          %h3.text-center All We Are Saying is Give VegNews a Chance.
+          %p.cover
+            {{ 'cover.jpg' | theme_image_tag }}
+
+          {% endeditable_text %}
+        .col-md-3.pull-right
+          %h3 Help Us Liberate VegNews.
+          %h4 Contact the people below.
+          %h4 Politely ask them to allow the issue to be mailed immediately.
+          %p
+            Colleen Holland<br>
+            415-642-6397 x102<br>
+            3505 20th Street<br>
+            San Francisco, CA 94110<br>
+            %a{href: 'mailto:cholland@vegnews.com' }cholland@vegnews.com<br>
+            colleen@vegweb.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Andrew Holland (Ms. Holland’s brother and lead attorney)<br>
+            Phone: 650-327-4200<br>
+            Fax: 650-325-5572<br>
+            Thoits, Love, Hershberger &amp; McLean<br>
+            76 Oak Grove Avenue<br>
+            Los Gatos, CA 95030<br>
+            aholland@thoits.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Mark Boennighausen (Holland attorney)<br>
+            Phone: 650-327-4200<br>
+            Fax: 650-325-5572<br>
+            Thoits, Love, Hershberger &amp; McLean<br>
+            285 Hamilton Avenue • Suite 300<br>
+            Palo Alto, CA 94301<br>
+            MBoennighausen@thoits.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Michael Dorsi (Holland attorney)<br>
+            Phone: 650-327-4200<br>
+            Fax: 650-325-5572<br>
+            Thoits, Love, Hershberger &amp; McLean<br>
+            285 Hamilton Avenue • Suite 300<br>
+            Palo Alto, CA 94301<br>
+            MDorsi@thoits.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Kathy Hourmand (Thoits’ office manager)<br>
+            Phone: 650-327-4200<br>
+            Fax: 650-325-5572<br>
+            Thoits, Love, Hershberger &amp; McLean<br>
+            285 Hamilton Avenue • Suite 300<br>
+            Palo Alto, CA 94301<br>
+            khourmand@thoits.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Publisher’s Creative Systems is VegNews’ subscription fulfillment house. It is illegally not releasing the files necessary to mail this issue.<br>
+            Mike Ciuffreda, president<br>
+            Publisher’s Creative Systems<br>
+            Phone: 800-847-9910<br>
+            Fax: 760-738-4805<br>
+            119 E Grand Ave<br>
+            Escondido, CA 92025<br>
+            mike@pcspublink.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Angie DeLeon, operations manager<br>
+            Publisher’s Creative Systems<br>
+            Phone: 760-738-4970 x120 <br>
+            Fax: 760-738-4805<br>
+            119 E Grand Ave<br>
+            Escondido, CA 92025<br>
+            angie@pcspublink.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Andrea Aguilar, Human Resources<br>
+            Publisher’s Creative Systems<br>
+            Phone: 760-738-4970 x119 <br>
+            Fax: 760-738-4805<br>
+            119 E Grand Ave<br>
+            Escondido, CA 92025<br>
+            andrea@pcspublink.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Anita Draper, Customer Service Manager<br>
+            Publisher’s Creative Systems<br>
+            Phone: 760-738-4970 x124 <br>
+            Fax: 760-738-4805<br>
+            119 E Grand Ave<br>
+            Escondido, CA 92025<br>
+            anita@pcspublink.com<br>
+            * * * * * * * * * * * * * * *<br>
+          %p
+            Rick Von Drak (Publisher’s Creative Systems’ attorney)<br>
+            Phone: 760-247-5147<br>
+            Fax: 760-400-8390<br>
+            12277 Apple Valley<br>
+            Apple Valley, CA 92308-1701<br>
+            escondidolawyer@hotmail.com<br>
+
+    #footer.container
+      .row
+        .col-md-12
+          %p.copyright &copy; 2014 All Rights Reserved, VegNews.
+    {% comment %}
+    %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", type: "text/javascript"}
+    {{ 'bootstrap.min.js' | javascript_tag }}
+    :javascript
+      $(document).ready(function() {
+      });
+    dont forget GA!!!
+    {% endcomment %}

@@ -1,0 +1,66 @@
+body {
+  background: #000;
+}
+
+.container {
+  background: #fff;
+}
+
+#header {
+  .banner-img {
+    height: 420px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+  }
+}
+
+.joe {
+  img {
+    width: 320px;
+    float: right;
+    padding: 20px;
+  }
+}
+
+.cover {
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+
+#main-content, #footer {
+  padding: 20px 40px;
+}
+
+#footer {
+  .copyright {
+    color: #ccc;
+  }
+}
+
+
+//RESPONSIVE STYLES
+
+@media (min-width: 768px) {
+  #header {
+    .tagline {
+      font-size: 18px;
+      margin-top: 68px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #header {
+    .tagline {
+      font-size: 22px;
+      margin-top: 62px;
+    }
+  }
+}

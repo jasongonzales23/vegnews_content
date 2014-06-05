@@ -1,0 +1,600 @@
+# Logfile created on 2014-03-17 08:02:22 -0700 by logger.rb/1.2.8
+[0;97;49mStarted GET "/" at 2014-03-17 08:02:31 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 96.8ms
+
+[0m
+unable to get an API token: Timeout::Error
+[0;31;49m      error => Expected(200) <=> Actual(404 Not Found)
+  response => #<Excon::Response:0x0000000774d6a8 @data={:body=>"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>vegnews</BucketName><RequestId>AC81EF220966BE19</RequestId><HostId>jhxq109h8h1G1zI90pdY3FMgDnt57Qrinww/DaDljMHGOM9pBoQtUotHVGhVR4on</HostId></Error>", :headers=>{"x-amz-request-id"=>"AC81EF220966BE19", "x-amz-id-2"=>"jhxq109h8h1G1zI90pdY3FMgDnt57Qrinww/DaDljMHGOM9pBoQtUotHVGhVR4on", "Content-Type"=>"application/xml", "Transfer-Encoding"=>"chunked", "Date"=>"Sat, 22 Mar 2014 20:20:24 GMT", "Connection"=>"close", "Server"=>"AmazonS3"}, :status=>404, :remote_ip=>"176.32.116.18"}, @body="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>vegnews</BucketName><RequestId>AC81EF220966BE19</RequestId><HostId>jhxq109h8h1G1zI90pdY3FMgDnt57Qrinww/DaDljMHGOM9pBoQtUotHVGhVR4on</HostId></Error>", @headers={"x-amz-request-id"=>"AC81EF220966BE19", "x-amz-id-2"=>"jhxq109h8h1G1zI90pdY3FMgDnt57Qrinww/DaDljMHGOM9pBoQtUotHVGhVR4on", "Content-Type"=>"application/xml", "Transfer-Encoding"=>"chunked", "Date"=>"Sat, 22 Mar 2014 20:20:24 GMT", "Connection"=>"close", "Server"=>"AmazonS3"}, @status=404, @remote_ip="176.32.116.18">
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 13:37:05 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 79.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 13:44:36 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:45:49 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 13:46:02 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:46:03 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 13:46:03 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:46:29 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:46:36 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:47:40 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:47:46 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:52:01 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 13:52:23 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 13:52:43 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 13:55:01 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 13:55:41 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 13:56:20 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:56:24 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Illegal nesting: nesting within plain text is illegal. - ./app/views/pages/index.liquid.haml:16:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:57:00 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:57:02 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Illegal element: classes and ids must have values. - ./app/views/pages/index.liquid.haml:5:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:57:56 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:57:59 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Illegal element: classes and ids must have values. - ./app/views/pages/index.liquid.haml:5:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 13:59:10 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 13:59:12 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:01:49 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:02:14 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:02:16 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Expected end_of_string but found comma in "{{ 'veg_news_logo.png' | theme_image_tag, class:'img-responsive' }}" - ./app/views/pages/index.liquid.haml:5:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:02:35 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:02:35 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:03:14 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:03:18 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:04:06 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:04:08 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:06:50 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:07:39 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:11:34 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:11:37 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:12:17 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:12:24 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:14:47 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:14:50 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:17:45 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:19:09 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:20:48 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:21:29 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:21:31 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:35:38 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 14:36:52 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:36:55 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:38:06 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:38:09 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:38:37 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:38:46 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:39:37 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:40:27 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:40:40 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:40:40 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:41:51 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:41:56 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:42:53 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:42:55 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:44:55 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:44:57 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:45:45 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 14:45:53 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:46:04 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:47:01 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 14:47:05 -0700
+* Reloaded "pages", "snippets" at 2014-03-22 14:49:02 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:49:04 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:49:36 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:50:06 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:50:06 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:50:07 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:50:07 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:50:07 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:50:47 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:51:09 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:52:11 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:52:16 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-03-22 14:52:28 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:52:33 -0700
+[0;97;49mStarted GET "/" at 2014-03-22 14:52:34 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-03-22 14:57:27 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:06:03 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:12:22 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 20:24:07 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:24:10 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:27:27 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:27:31 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:35:30 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 20:35:35 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:35:39 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:39:53 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 20:39:58 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:42:29 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:42:36 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:42:37 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:42:40 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:44:25 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:44:26 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Expected id but found string in "{{ theme_image_tag | 'joe.jpg' }}" - ./app/views/pages/index.liquid.haml:5:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:45:15 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 20:45:36 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:45:39 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:45:54 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:47:55 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:48:13 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:48:46 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:48:52 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:48:54 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:50:01 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:50:02 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:50:16 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:50:17 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:50:21 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:50:23 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:50:30 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 20:50:50 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:50:50 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:51:06 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:51:07 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:51:11 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:51:14 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:52:37 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:52:37 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:52:44 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:52:45 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:53:37 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:53:37 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:53:57 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:53:58 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:54:03 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:54:05 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:54:19 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:54:20 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:54:24 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:54:37 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 20:54:42 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 20:55:10 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 20:55:12 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 21:05:50 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 21:08:14 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 21:09:38 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m

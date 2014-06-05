@@ -1,0 +1,15 @@
+development:
+  host: dev.example.com
+  email: john@doe.net
+  password: apassword
+  # api_key: <your api key here>
+staging:
+  host: staging.example.com
+  email: john@doe.net
+  password: apassword
+  # api_key: <your api key here>
+production:
+  host: vegnewscms.herokuapp.com
+  email: jason.gonzales23@gmail.com
+  password: SzdPxxPD71Qd82V7BEmesvuW
+  # api_key: <your api key here>
