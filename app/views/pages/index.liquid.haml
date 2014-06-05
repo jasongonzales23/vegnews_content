@@ -20,7 +20,6 @@ published: true
       .row
         .col-md-8
           %h1 A Message from VegNews Founder and Publisher Joseph Connelly
-          {% editable_text, "Main Content", rows:'40'%}
           %p.joe
             {{ 'joe.jpg' | theme_image_tag }}
           %p After publishing the November+December 2013 issue of VegNews, I made the very difficult decision to suspend publication of the magazine temporarily while dealing with some personal and professional issues, including the failing health of my longtime office assistant Frances (Frankie) McGee, who succumbed to cancer on February 19.
@@ -32,7 +31,6 @@ published: true
           %p.cover
             {{ 'cover.jpg' | theme_image_tag }}
 
-          {% endeditable_text %}
         .col-md-3.pull-right
           %h3 Help Us Liberate VegNews.
           %h4 Contact the people below.
@@ -42,8 +40,8 @@ published: true
             415-642-6397 x102<br>
             3505 20th Street<br>
             San Francisco, CA 94110<br>
-            %a{href: 'mailto:cholland@vegnews.com' }cholland@vegnews.com<br>
-            colleen@vegweb.com<br>
+            %a{href: 'mailto:cholland@vegnews.com' } cholland@vegnews.com<br>
+            %a{href: 'colleen@vegweb.com'} colleen@vegweb.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Andrew Holland (Ms. Holland’s brother and lead attorney)<br>
@@ -52,7 +50,7 @@ published: true
             Thoits, Love, Hershberger &amp; McLean<br>
             76 Oak Grove Avenue<br>
             Los Gatos, CA 95030<br>
-            aholland@thoits.com<br>
+            %a{href: 'aholland@thoits.com'} aholland@thoits.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Mark Boennighausen (Holland attorney)<br>
@@ -61,7 +59,7 @@ published: true
             Thoits, Love, Hershberger &amp; McLean<br>
             285 Hamilton Avenue • Suite 300<br>
             Palo Alto, CA 94301<br>
-            MBoennighausen@thoits.com<br>
+            %a{href: 'MBoennighausen@thoits.com'} MBoennighausen@thoits.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Michael Dorsi (Holland attorney)<br>
@@ -70,7 +68,7 @@ published: true
             Thoits, Love, Hershberger &amp; McLean<br>
             285 Hamilton Avenue • Suite 300<br>
             Palo Alto, CA 94301<br>
-            MDorsi@thoits.com<br>
+            %a{href: 'MDorsi@thoits.com'} MDorsi@thoits.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Kathy Hourmand (Thoits’ office manager)<br>
@@ -79,7 +77,7 @@ published: true
             Thoits, Love, Hershberger &amp; McLean<br>
             285 Hamilton Avenue • Suite 300<br>
             Palo Alto, CA 94301<br>
-            khourmand@thoits.com<br>
+            %a{href: 'khourmand@thoits.com'} khourmand@thoits.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Publisher’s Creative Systems is VegNews’ subscription fulfillment house. It is illegally not releasing the files necessary to mail this issue.<br>
@@ -89,7 +87,7 @@ published: true
             Fax: 760-738-4805<br>
             119 E Grand Ave<br>
             Escondido, CA 92025<br>
-            mike@pcspublink.com<br>
+            %a{href: 'mike@pcspublink.com'} mike@pcspublink.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Angie DeLeon, operations manager<br>
@@ -98,7 +96,7 @@ published: true
             Fax: 760-738-4805<br>
             119 E Grand Ave<br>
             Escondido, CA 92025<br>
-            angie@pcspublink.com<br>
+            %a{href: 'angie@pcspublink.com'} angie@pcspublink.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Andrea Aguilar, Human Resources<br>
@@ -107,7 +105,7 @@ published: true
             Fax: 760-738-4805<br>
             119 E Grand Ave<br>
             Escondido, CA 92025<br>
-            andrea@pcspublink.com<br>
+            %a{href: 'andrea@pcspublink.com'} andrea@pcspublink.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Anita Draper, Customer Service Manager<br>
@@ -116,7 +114,7 @@ published: true
             Fax: 760-738-4805<br>
             119 E Grand Ave<br>
             Escondido, CA 92025<br>
-            anita@pcspublink.com<br>
+            %a{href: 'anita@pcspublink.com'} anita@pcspublink.com<br>
             * * * * * * * * * * * * * * *<br>
           %p
             Rick Von Drak (Publisher’s Creative Systems’ attorney)<br>
@@ -124,7 +122,9 @@ published: true
             Fax: 760-400-8390<br>
             12277 Apple Valley<br>
             Apple Valley, CA 92308-1701<br>
-            escondidolawyer@hotmail.com<br>
+            %a{href: 'escondidolawyer@hotmail.com'} escondidolawyer@hotmail.com<br>
+          %p
+            If you would like to assist us in any way, please email <a href="mailto:liberatevegnews@vegnews.com">liberatevegnews@vegnews.com</a>. Thank you.
 
     #footer.container
       .row

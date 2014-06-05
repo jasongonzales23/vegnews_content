@@ -598,3 +598,54 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 1.8ms
 
 [0m
+      template => Liquid Syntax error ('Error in the default block for the Main Content editable_element - No liquid tags are allowed inside.' on 'index')
+      raw_template => Liquid Syntax error ('Error in the default block for the Main Content editable_element - No liquid tags are allowed inside.' on 'index')
+* Reloaded "pages", "snippets" at 2014-06-04 21:14:54 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 21:14:58 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Unknown tag 'endeditable_text' - ./app/views/pages/index.liquid.haml:35:in `Home page'
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 21:15:12 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Unknown tag 'endeditable_text' - ./app/views/pages/index.liquid.haml:35:in `Home page'
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 21:15:18 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Unknown tag 'endeditable_text' - ./app/views/pages/index.liquid.haml:35:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 21:15:22 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 21:15:23 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 21:16:44 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 21:17:54 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 21:20:15 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 21:20:30 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 21:20:37 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-04 21:20:38 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 21:24:10 -0700
