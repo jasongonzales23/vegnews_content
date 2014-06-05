@@ -704,3 +704,26 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 11.7ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-06-04 22:18:48 -0700
+* Reloaded "pages", "snippets" at 2014-06-04 22:19:15 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 22:19:47 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 22:19:55 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 22:19:56 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Illegal nesting: nesting within plain text is illegal. - ./app/views/pages/index.liquid.haml:135:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-06-04 22:20:13 -0700
+[0;97;49mStarted GET "/" at 2014-06-04 22:20:15 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.4ms
+
+[0m
