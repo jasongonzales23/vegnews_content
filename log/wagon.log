@@ -799,3 +799,12 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 9.7ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-06-09 20:43:16 -0700
+[0;97;49mStarted GET "/" at 2014-06-09 20:43:39 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-06-09 20:44:02 -0700
