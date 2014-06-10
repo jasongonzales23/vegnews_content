@@ -8,44 +8,43 @@ body {
 
 /* line 10, ../../app/assets/stylesheets/theme.scss */
 #header .banner-img {
-  height: 420px;
   overflow: hidden; }
-  /* line 13, ../../app/assets/stylesheets/theme.scss */
+  /* line 12, ../../app/assets/stylesheets/theme.scss */
   #header .banner-img img {
     width: 100%;
     display: block;
     height: auto; }
 
-/* line 22, ../../app/assets/stylesheets/theme.scss */
+/* line 21, ../../app/assets/stylesheets/theme.scss */
 .joe img {
   width: 320px;
   float: right;
   padding: 20px; }
 
-/* line 29, ../../app/assets/stylesheets/theme.scss */
+/* line 28, ../../app/assets/stylesheets/theme.scss */
 .cover {
   margin-top: 40px; }
-  /* line 31, ../../app/assets/stylesheets/theme.scss */
+  /* line 30, ../../app/assets/stylesheets/theme.scss */
   .cover img {
     max-width: 100%;
     display: block;
     height: auto; }
 
-/* line 38, ../../app/assets/stylesheets/theme.scss */
+/* line 37, ../../app/assets/stylesheets/theme.scss */
 #main-content, #footer {
   padding: 20px 40px; }
 
-/* line 43, ../../app/assets/stylesheets/theme.scss */
+/* line 42, ../../app/assets/stylesheets/theme.scss */
 #footer .copyright {
   color: #ccc; }
 
 @media (min-width: 768px) {
-  /* line 53, ../../app/assets/stylesheets/theme.scss */
+  /* line 52, ../../app/assets/stylesheets/theme.scss */
   #header .tagline {
     font-size: 18px;
     margin-top: 68px; } }
 @media (min-width: 992px) {
-  /* line 62, ../../app/assets/stylesheets/theme.scss */
+  /* line 61, ../../app/assets/stylesheets/theme.scss */
   #header .tagline {
     font-size: 22px;
     margin-top: 62px; } }

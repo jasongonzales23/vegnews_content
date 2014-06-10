@@ -808,3 +808,25 @@ Found page "Home page" [index]
 
 [0m
 * Reloaded "pages", "snippets" at 2014-06-09 20:44:02 -0700
+* Reloaded "pages", "snippets" at 2014-06-09 20:53:20 -0700
+[0;97;49mStarted GET "/" at 2014-06-09 20:53:27 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-09 20:54:16 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-06-09 20:54:45 -0700[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
